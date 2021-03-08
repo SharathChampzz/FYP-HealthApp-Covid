@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#001A4B"
+    tools:context=".MainActivity">
+
+
+    <TextView
+        android:id="@+id/cordinates"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/current_location_displayed_here"
+        android:textStyle="italic"
+        android:visibility="gone"
+         />
+
+    <Spinner
+        android:id="@+id/spinner"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/cordinates"
+        android:layout_marginTop="5dp"
+        android:visibility="gone"
+        />
+
+    <ImageView
+        android:layout_marginTop="20dp"
+        android:id="@+id/imageView3"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:src="@drawable/covid" />
+
+
+    <ScrollView
+        android:layout_below="@+id/imageView3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        >
+
+        <GridLayout
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="20dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginEnd="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginBottom="20dp"
+            android:columnCount="1"
+
+            >
+
+
+            <Button
+                android:id="@+id/check"
+                android:layout_height="150dp"
+                android:layout_columnWeight="1"
+                android:layout_margin="20dp"
+                android:background="@drawable/btnbg"
+                android:rotationY="2"
+                android:text="Home Medication"
+                android:textSize="15sp" />
+
+            <Button
+                android:id="@+id/quiz"
+                android:layout_height="150dp"
+                android:layout_columnWeight="1"
+                android:layout_margin="20dp"
+                android:background="@drawable/btnbg"
+                android:text="@string/self_assessment"
+                android:textSize="15sp" />
+
+            <Button
+                android:id="@+id/patients"
+                android:layout_height="150dp"
+                android:layout_columnWeight="1"
+                android:layout_margin="20dp"
+                android:background="@drawable/btnbg"
+                android:text="@string/map_based_features"
+                android:textSize="15sp" />
+
+            <Button
+                android:id="@+id/removegeofence"
+                android:layout_height="150dp"
+                android:layout_columnWeight="1"
+                android:layout_margin="20dp"
+                android:background="@drawable/btnbg"
+                android:text="@string/restart_services"
+                android:textSize="15sp" />
+
+            <Button
+                android:id="@+id/who"
+                android:layout_height="150dp"
+                android:layout_columnWeight="1"
+                android:layout_margin="20dp"
+                android:background="@drawable/btnbg"
+                android:text="@string/who_site"
+                android:textSize="15sp" />
+
+            <Button
+                android:id="@+id/corona"
+                android:layout_height="150dp"
+                android:layout_columnWeight="1"
+                android:layout_margin="20dp"
+                android:background="@drawable/btnbg"
+                android:text="@string/corona_positive_nearby"
+                android:textSize="15sp" />
+
+
+
+            <Button
+                android:id="@+id/medication"
+                android:layout_height="150dp"
+                android:layout_columnWeight="1"
+                android:layout_margin="20dp"
+                android:background="@drawable/btnbg"
+                android:text="@string/add_medicine"
+                android:textSize="15sp" />
+
+            <Button
+                android:id="@+id/iot"
+                android:layout_height="150dp"
+                android:layout_columnWeight="1"
+                android:layout_margin="20dp"
+                android:background="@drawable/btnbg"
+                android:text="@string/monitoring"
+                android:textSize="15sp" />
+            <Button
+                android:id="@+id/more"
+                android:layout_height="150dp"
+                android:layout_columnWeight="1"
+                android:layout_margin="20dp"
+                android:background="@drawable/btnbg"
+                android:text="@string/more_features"
+                android:textSize="15sp" />
+
+            <Button
+                android:id="@+id/logout"
+                android:layout_height="150dp"
+                android:layout_columnWeight="1"
+                android:layout_margin="20dp"
+                android:background="@drawable/btnbg"
+                android:text="@string/log_out"
+                android:textSize="15sp" />
+
+        </GridLayout>
+    </ScrollView>
+
+</RelativeLayout>
