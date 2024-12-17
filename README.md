@@ -32,3 +32,11 @@ This project is licensed under the MIT License.
 
 ## Acknowledgements
 We thank all the developers and contributors who made this project possible.
+
+# Sample Output Screenshot:
+![image](https://github.com/user-attachments/assets/69d8b378-bc1c-4778-936b-0b23c7eaa98d)
+
+# Sample Demo:
+[Google Drive](https://drive.google.com/file/d/1f8GG6QviO0RaE15JE9U3FRRCe9dASgJF/view?usp=sharing )
+
+
